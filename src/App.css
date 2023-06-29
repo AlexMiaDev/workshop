@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.location {
+  margin-top: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.info > * {
+  margin: 0 20px;
+}
+
+.fill {
+  flex: 1;
+}
+
+.temperature {
+  font-size: 50px;
+}
+
+.rightSideInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
